@@ -1,0 +1,130 @@
+.video-warp {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  padding-bottom: 70px;
+  // 头部
+  .video-header {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #585858;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.9;
+    // 分享用户信息区
+    .user-info {
+      display: flex;
+      flex-direction: column;
+      height: 80%;
+      justify-content: space-around;
+      .name {
+        font: size 16px;
+        color: #fff;
+      }
+      .fixed-text {
+        font-size: 12px;
+        color: #fff;
+      }
+    }
+    // 顶部按钮
+    .to-button {
+      width: 70px;
+      height: 30px;
+      border-radius: 20px;
+      background-color: #15a2dc;
+      font-size: 12px;
+      text-align: center;
+      line-height: 30px;
+      color: #fff;
+    }
+  }
+
+  /deep/ .video-js .vjs-tech {
+    object-fit: fill;
+  }
+  /deep/ .vjs-poster {
+    background-size: cover;
+  }
+}
+
+// video 内容区域
+.video-box {
+  position: relative;
+  height: 100%;
+  // 视频右侧图标区域
+  .video-right-box {
+    width: 70px;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    .user-focus{
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .icon-item-box {
+      width:50px;
+      margin: 10px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content:space-around;
+      .icon-text {
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// 底部横幅
+.video-bottom {
+  background-color: #585858;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  // 分享用户信息区
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+    .name {
+      font: size 16px;
+      color: #fff;
+    }
+    .fixed-text {
+      font-size: 12px;
+      color: #fff;
+    }
+  }
+  // 顶部按钮
+  .to-button {
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #15a2dc;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+  }
+}
