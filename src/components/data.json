@@ -1,0 +1,52 @@
+{
+    "code": 0,
+    "data": {
+        "otherPosts": [
+            {
+                "avatar": "http://oss.sortinghat.cn/postfile/system_user_head/d9388b0b4dd3b22982c9415b6ac41644.jpeg",
+                "nickname": "甜狗日记",
+                "postId": 562586569216,
+                "thumb": "http://oss.sortinghat.cn/postfile/20210815/2eed14f103cb43148d60ac8b8fc3c8ca.mp4?x-oss-process=video/snapshot,t_10,f_png,m_fast,ar_auto",
+                "title": "漫画身材高比例还原#美腿#美女漫画身材高比例还原#美腿#美女"
+            },
+            {
+                "avatar": "http://oss.sortinghat.cn/postfile/system_user_head/d9388b0b4dd3b22982c9415b6ac41644.jpeg",
+                "nickname": "zhangsan21",
+                "postId": 1672930035712,
+                "thumb": "http://oss.sortinghat.cn/postfile/20210914/96a977df1510e6e758ff9877a71f7271.mp4?x-oss-process=video/snapshot,t_1,f_png,m_fast,ar_auto",
+                "title": "test#搞笑段子#神评论"
+            },
+            {
+                "avatar": "http://oss.sortinghat.cn/postfile/system_user_head/d9388b0b4dd3b22982c9415b6ac41644.jpeg",
+                "nickname": "zhangsan21",
+                "postId": 1692577656576,
+                "thumb": "http://oss.sortinghat.cn/postfile/20210915/6313b712d15fcb1c3eadc6f78d516c4a.mp4?x-oss-process=video/snapshot,t_1,f_png,m_fast,ar_auto",
+                "title": "test#搞笑段子"
+            },
+            {
+                "avatar": "http://oss.sortinghat.cn/postfile/system_user_head/d9388b0b4dd3b22982c9415b6ac41644.jpeg",
+                "nickname": "搞笑艺术家nglnxaap1242141",
+                "postId": 1850823489792,
+                "thumb": "http://oss.sortinghat.cn/postfile/20210915/6313b712d15fcb1c3eadc6f78d516c4a.mp4?x-oss-process=video/snapshot,t_1,f_png,m_fast,ar_auto",
+                "title": "postman测试5561"
+            }
+        ],
+        "sharedPostBaseVO": {
+            "authorId": 562409249792,
+            "avatar": "http://oss.sortinghat.cn/postfile/system_user_head/d9388b0b4dd3b22982c9415b6ac41644.jpeg",
+            "likeCount": 0,
+            "nickname": "你长得很抽象",
+            "postId": 562586443776,
+            "postType": 1, 
+            "thumb": "http://oss.sortinghat.cn/postfile/20210815/fd26e8efde7a4d59a596e9ffb869793a.mp4?x-oss-process=video/snapshot,t_10,f_png,m_fast,ar_auto",
+            "title": "时光背面的我 你是黑暗里的微光#御姐",
+            "url": "http://oss.sortinghat.cn/postfile/20210815/fd26e8efde7a4d59a596e9ffb869793a.mp4"
+        },
+        "sharingUser": {
+            "avatar": "http://oss.sortinghat.cn/postfile/system_user_head/d9388b0b4dd3b22982c9415b6ac41644.jpeg",
+            "nickname": "你长得很抽象",
+            "userId": 562409249792
+        }
+    },
+    "msg": ""
+}
