@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-    <!-- <title> 来自搞笑星球的笑料</title> -->
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+    <title> 来自搞笑星球的笑料</title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <!-- <script src="https://res2.wx.qq.com/open/js/jweixin-1.6.0.js"></script> -->
+    <script src="https://g.alicdn.com/jssdk/u-link/index.min.js"></script>
+    <script src="https://res2.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
     <div id="app"></div>
   </body>
 </html>

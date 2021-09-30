@@ -3,7 +3,8 @@ import App from "./App.vue";
 import VideoPlayer from "vue-video-player";
 import "vue-video-player/src/custom-theme.css";
 import "video.js/dist/video-js.css";
-
+// import Vconsole from 'vconsole'
+// const vConsole = new Vconsole()
 Vue.use(VideoPlayer);
 Vue.config.ignoredElements = ["wx-open-launch-app"];
 Vue.prototype.getViewportSize = function() {
