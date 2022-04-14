@@ -1,5 +1,5 @@
 const baseUrl = 'https://server.sortinghat.cn'
-var Ajax = {
+let Ajax = {
   get: function(url, fn) {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", baseUrl+url, true);
